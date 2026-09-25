@@ -38,14 +38,14 @@ jobs:
 
       - name: Scaffold Android project from twa-manifest.json
         working-directory: android
-        run: bubblewrap update --skipPwaValidation
+        run: yes | bubblewrap update --skipPwaValidation
         env:
           BUBBLEWRAP_KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           BUBBLEWRAP_KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
 
       - name: Build signed APK
         working-directory: android
-        run: bubblewrap build --skipPwaValidation
+        run: yes | bubblewrap build --skipPwaValidation
         env:
           BUBBLEWRAP_KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           BUBBLEWRAP_KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}

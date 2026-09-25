@@ -20,8 +20,6 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-        with:
-          packages: 'platform-tools'
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -32,20 +30,18 @@ jobs:
         run: npm install -g @bubblewrap/cli
 
       - name: Restore signing keystore
-        run: |
-          mkdir -p android
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > android/android.keystore
+        run: echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > android/android.keystore
 
       - name: Scaffold Android project from twa-manifest.json
         working-directory: android
-        run: yes | bubblewrap update --skipPwaValidation
+        run: bubblewrap update --skipPwaValidation
         env:
           BUBBLEWRAP_KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           BUBBLEWRAP_KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
 
       - name: Build signed APK
         working-directory: android
-        run: yes | bubblewrap build --skipPwaValidation
+        run: bubblewrap build --skipPwaValidation
         env:
           BUBBLEWRAP_KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           BUBBLEWRAP_KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}

